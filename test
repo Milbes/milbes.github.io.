@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+
+	<title>Recipe Book</title>
+	
+	<link rel="stylesheet" href="./Recipe Book_files/reset.css" media="screen">
+
+	<link rel="stylesheet" href="./Recipe Book_files/recipe-style.css" media="screen">
+</head>
+<body>
+
+<header class="header">	
+	<div id="logotype">
+		<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/index.html" title="Go to home page">
+			<img src="./Recipe Book_files/header.jpg" alt="Good Food Logotype">
+		</a>
+	</div>
+	<nav>
+		<ul id="nav">
+			<li><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipe-book.html" title="Go to recipes page">Recipes</a></li>
+			<li><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips.html" title="Go to cooking tips page">Tips</a></li>
+			<li><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/contributors.html" title="Go to contributors page">Contributors</a></li>
+			<li><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/about.html" title="Go to about page">About</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+
+<article>
+
+	<section class="scene1">
+			<h1>Recipe Book Project</h1>
+				<h4>Welcome to Food Good, a cooking website created as a <br> group project that brings together a variety of unique recipes for <br> you try. On the site you’ll find some helpful cooking tips <br> and delish recpies from our table to yours!</h4>
+	</section>
+		
+	<div class="container">
+		<section class="thumbnail-grid"> <!-- Featured Recpies Gird -->
+			<ul class="list">
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/quinoa-white-chicken-chili.html" title="Go to Quinoa White Chicken Chili page">
+						<figure>
+							<div class="thumbnail">
+								<span class="overlay">Quinoa White Chicken Chili</span>	
+								<img src="./Recipe Book_files/quinoa-white-chicken-chili-small.jpg" alt="Quinoa White Chicken Chili">
+							</div>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/quinoa-salad.html" title="Go to Mediterranean Quinoa Salad page">
+						<figure>
+							<div class="thumbnail">
+								<span class="overlay">Mediterranean Quinoa Salad</span>	
+								<img src="./Recipe Book_files/quinoa-salad-small.jpg" alt="Mediterranean Quinoa Salad">
+							</div>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/spicy-thai-kale-salad.html" title="Go to Spicy Thai Kale Salad page">
+						<figure>
+							<div class="thumbnail">
+								<span class="overlay">Spicy Thai Kale Salad</span>	
+								<img src="./Recipe Book_files/spicy-thai-kale-salad-small.jpg" alt="Spicy Thai Kale Salad">
+							</div>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/grilled-shrimp-cilantro-sauce.html" title="Go to Grilled Shrimp page">
+						<figure>
+							<div class="thumbnail">
+								<span class="overlay">Grilled Shrimp + Garlic Cilantro Sauce</span>	
+								<img src="./Recipe Book_files/grilled-shrimp-small.jpg" alt="Grilled Shrimp">
+							</div>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</div>
+	
+	<section class="feature tips">
+		<h1>Cooking Tips</h1>
+			<h5>View Recent Tips</h5>
+				<ul>
+					<li>
+						<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/shrimp-tip.html" title="Go to shrimp tip page">
+							<img src="./Recipe Book_files/shrimp-small.jpg" alt="Shrimp">
+							<h4>Peel And Devein Shrimp</h4>
+							</a><p class="attribution"><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/shrimp-tip.html" title="Go to shrimp tip page">Submitted by </a><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/~sampsons/recipebook/index.html" title="Go to Sinai Sampson-Hill&#39;s page page">Sinai Sampson-Hill</a></p><p>
+						
+					</p></li>
+					<li>
+						<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/pear-tip.html" title="Go to pear tip page"> 
+							<img src="./Recipe Book_files/pear-small.jpg" alt="Pears">
+							<h4>Ripening Pears</h4>
+							</a><p class="attribution"><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/pear-tip.html" title="Go to pear tip page">Submitted by </a><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/~parrycj/recipebook/index.html" title="Go to Colette&#39;s page page">Colette Parry</a></p>
+						
+					</li>
+					<li>
+						<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/mango-tip.html" title="Go to mango tip page">
+							<img src="./Recipe Book_files/mango-small.jpg" alt="Mangos">
+							<h4>How to Cut a Mango</h4>
+							</a><p class="attribution"><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/tips/mango-tip.html" title="Go to mango tip page">Sumbitted by </a><a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/bear-necessities/" title="Go to Dane&#39;s site">Dane Groves</a></p>
+						
+					</li>
+				</ul>
+	</section>
+	
+	<section class="feature contributor">
+		<h1>Featured Contributor</h1>
+			<h2>Mariclare Rethore</h2>
+				<h4>Hello there, I'm Mariclare. When I'm not at school I love cooking for myself <br> and for others! I have two go-to cook books, <a href="https://www.amazon.com/Hoc-Home-Thomas-Keller-Library/dp/1579653774" title="Go to Ad Hock cook book"> Ad Hock</a> by Thomas Keller and <br> <a href="https://www.amazon.com/Kinfolk-Table-Nathan-Williams/dp/1579655327" title="Go to Kinfolk Tabel cook book"> The Kinfolk Table</a> by Nathan Williams.</h4>
+		
+		<h5>Recipes Contributed by Mariclare Rethore</h5>
+			<ul>
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/quinoa-salad.html" title="Quinoa Salad recipe">
+						<figure class="feature-item">
+							<img src="./Recipe Book_files/quinoa-salad-small.jpg" alt="Quinoa Salad">
+							<figcaption>Mediterranean Quinoa Salad</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="http://web.simmons.edu/~grovesd/comm244/recipe-book/examples/mariclare/recipes/salami-pesto.html" title="Pesto and Salami Bruschetta recipe">
+						<figure class="feature-item">
+							<img src="./Recipe Book_files/brush-small.jpg" alt="Pesto and Salami Bruschetta">
+							<figcaption>Homemade Pesto and Salami Bruschetta</figcaption>
+						</figure>
+					</a>
+				</li>
+		</ul>
+	</section>	
+</article>
+
+
+<footer>
+	<h5>Good Food</h5>
+	<p>© 2016 COMM 244: Design For The World Wide Web. All Rights Reserved.</p>
+</footer>
+	
+
+
+</body></html>

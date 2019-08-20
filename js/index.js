@@ -10,7 +10,7 @@ var rightBtn = document.querySelector('.move-btn.right');
 var leftInterval;
 var rightInterval;
 
-var scrollRate = 0.2;
+var scrollRate = 0.1;
 var left;
 
 function selectItem(e) {

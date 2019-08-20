@@ -96,15 +96,13 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 (function init() {
 	var images = [
 		'images/gallery/MSAW.jpg',
-		'images/gallery/firstmeeting.jpg',
-		'images/gallery/haneen.png',
+		'images/gallery/firstmeeting.jpg',	
 		'images/gallery/hike.jpg',
-		'images/gallery/malik.png',
-		'images/gallery/nadine.png',
-		'images/gallery/omar.png',
 		'images/gallery/park1.jpg',
 		'images/gallery/park2.jpg',
 		'images/gallery/rollerskating.jpg',
+		'images/gallery/sahaba.jpg',
+		'images/gallery/tabling.jpg',
 	];
 	
 	//Set Initial Featured Image

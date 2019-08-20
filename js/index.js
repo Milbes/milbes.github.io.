@@ -102,7 +102,7 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 		'images/gallery/park2.jpg',
 		'images/gallery/rollerskating.jpg',
 		'images/gallery/sahaba.jpg',
-		'images/gallery/tabling.jpg',
+		'images/gallery/tabling.jpg'
 	];
 	
 	//Set Initial Featured Image

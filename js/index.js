@@ -103,7 +103,10 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 		'images/gallery/rollerskating.jpg',
 		'images/gallery/sahaba.jpg',
 		'images/gallery/tabling.jpg',
-		'images/gallery/malikomardany.jpg'
+		'images/gallery/malikomardany.jpg',
+		'images/gallery/tabling1.jpg',
+		'images/gallery/tabling2.jpg',
+		'images/gallery/girls.jpg'
 	];
 	
 	//Set Initial Featured Image

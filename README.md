@@ -1,2 +1,2 @@
-# malikis2cool.github.io
+# MSA CSUSB
 Website for Muslim Student Association at CSUSB

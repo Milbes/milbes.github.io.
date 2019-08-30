@@ -2,7 +2,7 @@ Home:
 Add Facebook button
 Add Instagram button
 
-Donate:
+*Donate:
 Add Paypal button
 Add Venmo button
 Add fundraiser button

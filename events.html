@@ -44,19 +44,99 @@
 	</nav>
 </header>
 
-
+<center>
+<!-- page content starts  -->
+<p id="demo" style=" text-align: center;  font-size: 60px;  margin-top: 0px; padding-top: 85px"></p>
+<p style="text-align: center;  font-size: 40px; padding: 40px">Upcoming MSA event: First meeting on September 25th</p>
 
 <article>
-	
-		<center><iframe src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bXNhLmNzdXNhbmJlcm5hcmRpbm9AZ21haWwuY29t&amp;color=%234285F4&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showCalendars=0&amp;mode=MONTH&amp;title=MSA%20CSUSB" style="border-width:0" width="1200" height="600" frameborder="0" scrolling="no"></iframe></center>
-</article>
+	<section class="scene1">
+<iframe src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bXNhLmNzdXNhbmJlcm5hcmRpbm9AZ21haWwuY29t&amp;color=%234285F4&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showCalendars=0&amp;mode=MONTH&amp;title=MSA%20CSUSB" style="border-width:0" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+	</section>
+</article></center>
+
+<!-- page content ends  -->
+
+	<!-- floating button -->
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large blue">
+			<i class="fas fa-plus"></i>
+		</a>
+		<ul>
+			<li><a href="https://facebook.com/" class="btn-floating blue"><i class="fab fa-facebook"></i>></a></li>
+			<li><a href="https://instagram.com/" class="btn-floating blue"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://paypal.com/" class="btn-floating blue"><i class="fab fa-paypal"></i></a></li>
+		</ul>
+	</div>
+
+</div>	
+
+<!--   <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+</div> -->
 
 
 <footer>
 	<h5>MSA CSUSB</h5>
 	<p>Copyright © 2019 MSA CSUSB. All rights reserved. Design by Malik Milbes and Amit Lawanghare</p>
 </footer>
-	
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<!-- js for floating button -->
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.fixed-action-btn');
+		var instances = M.FloatingActionButton.init(elems, options);
+	});
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+  	$('.fixed-action-btn').floatingActionButton();
+  });
+</script>
+<!-- countdown script -->
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 25, 2019 12:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>	
 
 </body>
 </html>

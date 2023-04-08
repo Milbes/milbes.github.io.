@@ -1,2 +1,2 @@
 # MSA CSUSB
-Website for Muslim Student Association at CSUSB
+Website for MSA at CSUSB

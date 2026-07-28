@@ -4,6 +4,9 @@ Official website for the **Muslim Student Association (MSA)** at **California St
 
 🌐 **Live Website:** https://msacsusb.org
 
+<p align="center">
+  <img src="images/homepagescreenshot.png" alt="MSA CSUSB Homepage" width="900">
+</p>
 ---
 
 ## About

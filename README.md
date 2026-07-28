@@ -22,7 +22,6 @@ This website serves as the official online presence for MSA CSUSB, providing stu
 - Contact information
 - MSA merchandise
 
-The website is designed to be fast, responsive, and easy to maintain.
 ---
 
 ## Credits
